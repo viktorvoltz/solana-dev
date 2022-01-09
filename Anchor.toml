@@ -1,0 +1,15 @@
+[programs.devnet]
+myepicproject = "6tz7xYhHwt9Hc626H5kTjNnQ31VHXME4eDYgkWf8Rqgz"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/chinonso/.config/solana/id.json"
+
+[scripts]
+test = "node tests/myepicproject.js"
+
+[test]
+startup_wait = 10000
